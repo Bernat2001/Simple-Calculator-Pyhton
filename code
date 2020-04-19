@@ -2,9 +2,9 @@
 print("Digame un numero")
 numero1= int(input()) #Variable que te pide por pantalla
 print("Digame otro numero")
-numero2= int(input())
+numero2= int(input()) #Variable que te pide por pantalla
 #Operaciones que debe de hacer la calculadora
-operacion1= numero1 + numero2
+operacion1= numero1 + numero2 
 operacion2= numero1 * numero2
 operacion3= numero1 - numero2
 operacion4= numero1 / numero2

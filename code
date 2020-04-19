@@ -1,0 +1,20 @@
+#Calculadora como la del ejercicio practico del examen de SOMO
+print("Digame un numero")
+numero1= int(input()) #Variable que te pide por pantalla
+print("Digame otro numero")
+numero2= int(input())
+#Operaciones que debe de hacer la calculadora
+operacion1= numero1 + numero2
+operacion2= numero1 * numero2
+operacion3= numero1 - numero2
+operacion4= numero1 / numero2
+print ("Dime que operacion hago con los numeros 1 --> sumar 2 --> multiplicar 3 --> restar 4 --> dividir")
+operador= int(input())
+if operador ==1:
+   print(operacion1)
+if operador ==2:
+   print (operacion2)
+if operador ==3:
+   print (operacion3)
+if operador ==4:
+   print (operacion4)
